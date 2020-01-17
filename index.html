@@ -17,66 +17,277 @@
       content="residential glass, commercial glass, glass showers, shower doors, glass storefronts"
     />
     <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    /> -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="phones">
-        <div>
-          <a
-            class="phone"
-            name="phone number seattle tacoma"
-            href="tel:(253) 825-8340"
-            >(253) 825 - 8340</a
-          >
-          <br />
-          <label class="location" for="phone number seattle tacoma"
-            >Seattle <span>&#x25cf;</span> Tacoma</label
-          >
-        </div>
+    <div class="container">
+      <header>
+        <div class="phones">
+          <div>
+            <a
+              class="phone"
+              name="phone number seattle tacoma"
+              href="tel:(253) 825-8340"
+              >(253) 825 - 8340</a
+            >
+            <br />
+            <label class="location" for="phone number seattle tacoma"
+              >Seattle <span>&#x25cf;</span> Tacoma</label
+            >
+          </div>
 
-        <div>
-          <a
-            class="phone"
-            name="phone renton eastside"
-            href="tel:(425) 271-1322"
-            >(425) 271 - 1322</a
-          >
+          <div>
+            <a
+              class="phone"
+              name="phone renton eastside"
+              href="tel:(425) 271-1322"
+              >(425) 271 - 1322</a
+            >
 
-          <br />
-          <label class="location" for="phone renton eastside"
-            >Renton <span>&#x25cf;</span> Eastside</label
-          >
+            <br />
+            <label class="location" for="phone renton eastside"
+              >Renton <span>&#x25cf;</span> Eastside</label
+            >
+          </div>
         </div>
-      </div>
-      <div>
-        <img
-          src="/images/logo.svg"
-          alt="Niemen Glass Logo"
-          height="200"
-          width="350"
-        />
-      </div>
-      <div>
-        <img
-          src="/images/logoslogan.svg"
-          alt="Niemen Glass Logo"
-          height="150"
-          width="300"
-        />
-      </div>
-    </header>
-    <nav id="navbar">
-      <a href="#home">Home</a>
-      <a href="#residential-glass">Residential Glass</a>
-      <a href="#commercial-glass">Commercial Glass</a>
-      <a href="#tenant-improvements">Tenant Imporovements</a>
-      <a href="#patterned-glass">Patterned Glass</a>
-      <a href="#about-us">About Us</a>
-      <a href="#contact-us">Contact Us</a>
-    </nav>
-    <section>
-      This is a test deployment
-    </section>
+        <div>
+          <img
+            src="/images/logo.svg"
+            alt="Niemen Glass Logo"
+            height="200"
+            width="350"
+          />
+        </div>
+        <div>
+          <img
+            src="/images/logoslogan.svg"
+            alt="Niemen Glass Logo"
+            height="150"
+            width="300"
+          />
+        </div>
+      </header>
+      <nav id="navbar">
+        <a href="#home">Home</a>
+        <a href="#residential-glass">Residential Glass</a>
+        <a href="#commercial-glass">Commercial Glass</a>
+        <a href="#tenant-improvements">Tenant Imporovements</a>
+        <a href="#patterned-glass">Patterned Glass</a>
+        <a href="#about-us">About Us</a>
+        <a href="#contact-us">Contact Us</a>
+      </nav>
+      <section name="cta">
+        <div class="cta-container">
+          <h1 class="cta-title">
+            Niemen Glass Company
+          </h1>
+          <p class="cta-description">
+            Niemen Glass Company was started in Tacoma, WA area in 1946. In 1977
+            Doug Cain opened an independent Niemen Glass Company in Kent, WA as
+            a locally owned and operated glass shop.
+          </p>
+          <button class="cta-button">(253) 852.8340</button>
+        </div>
+      </section>
+      <section name="service-cards">
+        <div>
+          <div>
+            <img
+              src="http://niemenglass.com/html/images/Capture-residential-glass.png"
+              alt=""
+            />
+          </div>
+          <div><h3>Residential glass</h3></div>
+          <div>
+            <p>
+              Windows, doors, mirrors, glass shower doors, and all residential
+              glass applications...
+            </p>
+
+            <a href="#residential-glass">read more</a>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img
+              src="http://niemenglass.com/html/images/Capture-commercial.PNG"
+              alt=""
+            />
+          </div>
+          <div><h3>Commercial Glass</h3></div>
+          <div>
+            <p>
+              Storefront, new construction tenant improvements, and much more...
+            </p>
+            <a href="#residential-glass">read more</a>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img
+              src="http://niemenglass.com/html/images/retail-glass.jpg"
+              alt=""
+            />
+          </div>
+          <div><h3>Patterned Glass</h3></div>
+          <div>
+            <p>
+              Mirrors, table tops, custom glass shelves, designer cabinet door
+              glass, etc...
+            </p>
+            <a href="#residential-glass">read more</a>
+          </div>
+        </div>
+      </section>
+      <section name="about-company">
+        <h2>
+          Welcome to Niemen Glass Company in Kent, Washington
+        </h2>
+        <strong>
+          The Glass Specialists Located in Kent, Washington
+        </strong>
+        <p>
+          Niemen Glass Company was started in Kent, Washington. Niemen Glass
+          Company has been a local family-owned and operated glass business
+          since 1946. Although the business changed ownership in 1977, the
+          business model of “customer focused, quality workmanship, and
+          competitive prices" has not changed.
+        </p>
+        <p>
+          We provide high-quality residential and commercial glass services to
+          the residents of King County & Pierce County in the state of
+          Washington. We hope to retain the trust of homeowners and commercial
+          contractors throughout Kent, Renton, Des Moines, Auburn, Covington,
+          and Federal Way.
+        </p>
+        <p>
+          Niemen Glass Company of Kent is dedicated to the standard…
+        </p>
+        <p>
+          “Customer Focused, Quality Workmanship, and Competitive Prices"
+        </p>
+        <p>
+          We continually strive to build and retain the trust of all our
+          customers by putting your satisfaction as our number one priority.
+        </p>
+        <p>
+          Niemen Glass Company of Kent provides the most valuable residential
+          and commercial glass and glazing services in Washington. We provide
+          the finest quality glass and glass products from the leading
+          manufacturers with the most up-to-date technological advancements in
+          the industry, like: Kawneer, Hartung, Arcadia, US Aluminum, Holcam,
+          Agalite, and Cardinal Shower Enclosures.
+        </p>
+        <p>
+          Our glass services include:
+        </p>
+        <ul>
+          <li>
+            <a href="#">Residential Glass</a> - Bringing more comfort, lower
+            energy bills, and higher investment returns to your home.
+          </li>
+          <li>
+            <a href="#">Commercial Glass</a> - Generating beautiful storefronts
+            which elevates curbside appeal and creates a comfortable climate for
+            customers while reducing energy costs.
+          </li>
+          <li>
+            <a href="#">Tenant Improvements</a> - Quick & reliable services for
+            tenants needs, improvements, and repairs for greater safety with
+            aesthetically pleasing results.
+          </li>
+          <li>
+            <a href="#">Detailed Glass</a> - Experienced specialized
+            craftsmanship combining beauty and precision for superior results
+            for all your glass projects.
+          </li>
+        </ul>
+        <i>
+          We serve areas from Seattle to Tacoma including every city surrounding
+          Northgate, Bellevue, Renton, Issaquah, Kent, Auburn, Covington,
+          Federal Way, and SeaTac.
+        </i>
+      </section>
+      <section name="why-niemen">
+        <h2>
+          Why Choose Niemen Glass?
+        </h2>
+        <p>
+          Niemen Glass strictly focuses on glass and glazing. We are a proud
+          member of Master Builders, and we carry a full line of glass and glass
+          products from the leading manufacturers in the industry like Kawneer,
+          Arcadia, US Aluminum, Cardinal Shower Enclosures, and many others.
+          Niemen Glass Company not only uses the best quality glass products on
+          the market, but our glass experts can install or repair your glass for
+          any residential or commercial application. We know who we are and hope
+          you put your trust in Niemen Glass Company to meet all your glass
+          needs.
+        </p>
+      </section>
+      <footer>
+        <div name="top-footer">
+          <div>
+            <h4>Residential Glass</h4>
+            <ul>
+              <li>Residential Windows</li>
+              <li>Residential Doors</li>
+              <li>Screens</li>
+              <li>Glass Shower Doors</li>
+              <li>Mirrors</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Commercial Glass</h4>
+            <ul>
+              <li>Glass Doors</li>
+              <li>Heavy Glass</li>
+              <li>Tenant Improvements</li>
+              <li>Storefronts</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Services</h4>
+            <ul>
+              <li>Residential Glass</li>
+              <li>Commercial Glass</li>
+              <li>Tenant Improvements</li>
+              <li>Patterned Glass</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Location</h4>
+            <ul>
+              <li>
+                Niemen Glass Company 209 Central Ave. North Kent, WA 98032
+              </li>
+              <li>Ph# 253.852.8340</li>
+              <li>FX# 253.854.8368</li>
+            </ul>
+          </div>
+        </div>
+        <div name="bottom-footer">
+          <ul>
+            <li>Home</li>
+            <li>Residential Glass</li>
+            <li>Commercial Glass</li>
+            <li>Tenant Improvements</li>
+            <li>Sitemap</li>
+            <li>XML Sitemap</li>
+          </ul>
+          <div><span>© Niemen Glass Company 2020</span></div>
+        </div>
+      </footer>
+      <!-- <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+      integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
+      crossorigin="anonymous"
+    ></script> -->
+    </div>
   </body>
 </html>

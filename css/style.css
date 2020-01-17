@@ -6,6 +6,21 @@
   /* --main-color: #b3d07a;
     --second-color: #ffff8c; */
 }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00337d;
+  background-image: url(/images/body-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  widows: 100%;
+  max-width: 1186px;
+}
 
 *,
 *:before,
@@ -14,8 +29,8 @@
   text-decoration: none;
 }
 
-body {
-  background-color: #00337d;
+a {
+  color: #cd5d3c;
 }
 
 header {
@@ -79,6 +94,154 @@ nav a:hover {
 nav a + a:before {
   color: #eee;
   /* font-size: 2em; */
+  content: " | ";
+  padding: 0 2px;
+}
+
+section[name="cta"] {
+  color: white;
+  background-color: #cccccc;
+  background-image: url(/images/cta-bg.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em;
+  height: 40vh;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section[name="cta"] > .cta-container {
+  width: 70%;
+  padding: 2em;
+  height: 25rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.65);
+
+  backdrop-filter: blur(5px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section[name="cta"] .cta-title {
+}
+section[name="cta"] .cta-description {
+  font-size: 1.5em;
+}
+section[name="cta"] .cta-button {
+  font-family: "Arial Black", "Arial Bold", Arial, Gadget, sans-serif;
+  font-weight: 900;
+  color: #cd5d3c;
+  font-size: 1.5em;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+section[name="service-cards"] {
+  background-color: #492c2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+section[name="service-cards"] > div {
+  max-width: 300px;
+  padding: 15px;
+}
+
+section[name="service-cards"] > div img {
+  width: 100%;
+  height: auto;
+}
+section[name="service-cards"] > div h3 {
+  color: #cd5d3c;
+  font-size: 1.5em;
+}
+section[name="service-cards"] > div p {
+  color: #ffffff;
+}
+
+section[name="about-company"] {
+  color: #162845;
+  background-color: #e4e4e4;
+  padding: 15px;
+}
+section[name="why-niemen"] {
+  color: #162845;
+  background-color: #e4e4e4;
+  padding: 15px;
+  margin-top: 1px;
+}
+footer > div[name="top-footer"] {
+  color: #fff;
+  background-color: #632523;
+  padding: 15px;
+  margin-top: 1px;
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+footer > div[name="top-footer"] > div {
+  max-width: 300px;
+}
+footer > div[name="top-footer"] > div > h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5em;
+}
+footer > div[name="top-footer"] > div > ul {
+  list-style: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+footer > div[name="top-footer"] > div > ul > li {
+  /* padding: 10px; */
+  background: url(../images/arr-footer-col.png) no-repeat 0 8px;
+  padding-left: 9px;
+  padding-bottom: 15px;
+}
+
+footer > div[name="bottom-footer"] {
+  border-top: 1px solid #262c2c;
+  color: #fff;
+  background-color: #5d5e60;
+  padding: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+footer > div[name="bottom-footer"] > ul {
+  list-style: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  flex-flow: row wrap;
+}
+footer > div[name="bottom-footer"] > ul > li {
+  padding: 5px;
+}
+
+footer > div[name="bottom-footer"] > ul > li + li:before {
+  color: #000;
   content: " | ";
   padding: 0 2px;
 }
