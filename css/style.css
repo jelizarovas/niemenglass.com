@@ -1,0 +1,84 @@
+:root {
+  --main-color: #faaca8;
+  --second-color: #ddd6f3;
+  --nav-height: 100px;
+  font-family: "Work Sans", sans-serif;
+  /* --main-color: #b3d07a;
+    --second-color: #ffff8c; */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #00337d;
+}
+
+header {
+  background: rgb(33, 35, 206);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 35, 206, 1) 0%,
+    rgba(100, 36, 37, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header div.phones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: #faaca8; */
+}
+
+header div.phones div {
+  margin: 0.5em;
+  text-align: center;
+}
+
+header .phone {
+  font-family: "Arial Black", "Arial Bold", Arial, Gadget, sans-serif;
+  font-weight: 900;
+  color: #cd5d3c;
+  font-size: 1.5em;
+}
+
+header .location {
+  color: #ffffff;
+}
+
+header .slogan {
+  color: #d8614b;
+}
+
+nav {
+  text-transform: uppercase;
+  background-color: #fafafa;
+  /* padding: 25px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  font-weight: 900;
+  padding: 25px 0px;
+  color: #999999;
+}
+nav a:hover {
+  color: #d8614b;
+}
+
+nav a + a:before {
+  color: #eee;
+  /* font-size: 2em; */
+  content: " | ";
+  padding: 0 2px;
+}
